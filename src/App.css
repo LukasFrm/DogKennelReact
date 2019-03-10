@@ -1,33 +1,52 @@
-.App {
-  text-align: center;
+:root {
+    --mainBlack: #2F2F2F; /* Anthracite */
+    --mainTeal: #07a9a9;
+    --mainGreen: #228B22;
+    --mainBrown: #8B4513;
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+html, body, #root {
+    height: 100%
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    background:  var(--mainBlack) !important;
+    color: white !important;
+
 }
 
-.App-link {
-  color: #61dafb;
+.text-title {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-blue {
+    color: var(--mainTeal);
+}
+
+.text-bright {
+    color: var(--mainGreen);
+}
+
+.bg-brown {
+    background: #8B4513;
+}
+
+.BeaglesCov {
+    width: 100%;
+    background-size: contain;
+}
+
+.intro-text {
+    position: absolute;
+    top: 10px;
+}
+
+.main-text {
+    color: var(--mainBlack);
+    font-weight: 600;
 }
