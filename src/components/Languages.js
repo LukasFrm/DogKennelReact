@@ -13,7 +13,6 @@ const messages = {
     
     lt: {
       'Brand': 'Ištikimas šuo',
-      'I have #qty books.': 'Eu {qty, plural, =0{não tenho nenhum livro} one{tenho 1 livro} other{tenho # livros} }.'
     },
 
     ru: {

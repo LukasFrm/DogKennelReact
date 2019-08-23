@@ -1,52 +1,108 @@
 :root {
-    --mainBlack: #2F2F2F; /* Anthracite */
-    --mainTeal: #07a9a9;
-    --mainGreen: #228B22;
-    --mainBrown: #8B4513;
-
+  --mainBlack: #77ad69; /* Anthracite */
+  --mainTeal: #07a9a9;
+  --mainGreen: #228b22;
+  --mainBrown: #8b4513;
 }
+@import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
-html, body, #root {
-    height: 100%
+
+html,
+body,
+#root {
+  height: 100%;
 }
-
 
 body {
-    font-family: 'Montserrat', sans-serif !important;
-    background:  var(--mainBlack) !important;
-    color: white !important;
-
+  font-family: "Montserrat", sans-serif !important;
+  background: var(--mainBlack) !important;
+  color: white !important;
 }
 
 .text-title {
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 0.3rem;
-    text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
 
 .text-blue {
-    color: var(--mainTeal);
+  color: var(--mainTeal);
 }
 
 .text-bright {
-    color: var(--mainGreen);
+  color: var(--mainGreen);
 }
 
 .bg-brown {
-    background: #8B4513;
-}
-
-.BeaglesCov {
-    width: 100%;
-    background-size: contain;
+  background: rgb(64, 138, 46);
 }
 
 .intro-text {
-    position: absolute;
-    top: 10px;
+  top: 10px;
+  color: var(--mainBlack);
 }
 
 .main-text {
-    color: var(--mainBlack);
-    font-weight: 600;
+  color: white;
+  font-weight: 500;
+}
+
+.mb-1{
+  margin-bottom: 18px !important;
+}
+
+.rightitem{
+    float: right;
+}
+.navbar-nav {
+    width: 100% !important;
+}
+
+.BeaglesCov {
+  background-image: url(./img/Beagles.png);
+  /* width: 100% !important; */
+  width: 100%;
+  min-height: 150px;
+  height: 35%;
+  /* min-height: 200px; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  /* background-size: 300px 100px; */
+
+  /* background-size: contain; */
+
+  /* background-position: center; */
+}
+
+.flag {
+  margin-left: 5px;
+  cursor: pointer !important;
+  box-sizing: border-box !important;
+
+}
+
+.flag:hover {
+  outline: 1px solid #fff;
+  outline-offset: -1px;
+}
+
+iframe {
+    max-width: 100% !important;
+}
+
+.dotted {
+  border-bottom: 1px dotted !important
+}
+
+.goBack{
+  font-size: 2rem !important;
+  color:white
+}
+
+
+@media only screen and (max-width: 1190px) {
+  .BeaglesCov {
+    height: 0 !important;
+  }
 }
