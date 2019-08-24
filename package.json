@@ -17,7 +17,8 @@
     "react-image-gallery": "^0.8.18",
     "react-intl": "^2.9.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+     "homepage": "http://lukasfrm.github.io/DogKennelReact-Build"
   },
   "scripts": {
     "start": "react-scripts start",
